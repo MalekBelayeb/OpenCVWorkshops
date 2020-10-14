@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie 1">
+      <UniqueIdentifier>{f4d871ea-ffbe-476a-b45f-d20a89517d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie 1\BrightnessAndContrast">
+      <UniqueIdentifier>{1e87ffd5-62c2-463b-8195-e84e858d45f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie 1\calcHistogramAndEqualization">
+      <UniqueIdentifier>{baf08b41-1ffc-4498-8541-cc11f3467183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie2">
+      <UniqueIdentifier>{59929a73-725e-4fd2-a8eb-f2f65db08c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie2\BruitageImage">
+      <UniqueIdentifier>{9290d233-9429-43de-af61-1f375b0de6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TP2_Partie2\FiltrageImage">
+      <UniqueIdentifier>{025b837c-5749-4ab0-8a8d-a0db25c3dab8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplicationOpenCv.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessAndContrast.cpp">
+      <Filter>Fichiers sources\TP2_Partie 1\BrightnessAndContrast</Filter>
+    </ClCompile>
+    <ClCompile Include="calcHistogramAndEqualization.cpp">
+      <Filter>Fichiers sources\TP2_Partie 1\calcHistogramAndEqualization</Filter>
+    </ClCompile>
+    <ClCompile Include="BruitageImage.cpp">
+      <Filter>Fichiers sources\TP2_Partie2\BruitageImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterImage.cpp">
+      <Filter>Fichiers sources\TP2_Partie2\FiltrageImage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrightnessAndContrast.h">
+      <Filter>Fichiers sources\TP2_Partie 1\BrightnessAndContrast</Filter>
+    </ClInclude>
+    <ClInclude Include="calcHistogramAndEqualization.h">
+      <Filter>Fichiers sources\TP2_Partie 1\calcHistogramAndEqualization</Filter>
+    </ClInclude>
+    <ClInclude Include="BruitageImage.h">
+      <Filter>Fichiers sources\TP2_Partie2\BruitageImage</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterImage.h">
+      <Filter>Fichiers sources\TP2_Partie2\FiltrageImage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

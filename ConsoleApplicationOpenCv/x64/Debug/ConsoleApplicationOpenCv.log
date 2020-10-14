@@ -1,0 +1,8 @@
+﻿  BruitageImage.cpp
+C:\Users\Admin\source\repos\ConsoleApplicationOpenCv\ConsoleApplicationOpenCv\BruitageImage.cpp(30,14): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\Admin\source\repos\ConsoleApplicationOpenCv\ConsoleApplicationOpenCv\BruitageImage.cpp(31,14): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  ConsoleApplicationOpenCv.cpp
+C:\Users\Admin\source\repos\ConsoleApplicationOpenCv\ConsoleApplicationOpenCv\ConsoleApplicationOpenCv.cpp(25,57): warning C4305: 'argument' : troncation de 'double' à 'float'
+  FilterImage.cpp
+  Génération de code en cours...
+  ConsoleApplicationOpenCv.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplicationOpenCv\x64\Debug\ConsoleApplicationOpenCv.exe
